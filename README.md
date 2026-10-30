@@ -1,19 +1,26 @@
-# Getting Started
-Install the dependencies and run the project
-```
+﻿# Game of War
+
+A simple card game built while following Scrimba's Fullstack Developer Path. Play against the computer by drawing two cards from a shuffled deck: the higher card wins the round, and a tie is called "War". The player with the most points when the deck runs out wins.
+
+## What I learned
+
+- Fetching data from an API with `fetch()` and handling responses with promises and `.then()`.
+- Reading JSON data to get a deck ID, card images, card values, and the number of cards remaining.
+- Using template literals to build API URLs and display dynamic content.
+- Selecting and updating HTML elements with JavaScript, including text, card images, and button states.
+- Responding to button clicks with event listeners.
+- Keeping track of game state with variables and updating scores after each round.
+- Comparing card ranks using an array and `indexOf()`, and using conditional logic to determine the winner.
+- Styling a game interface with CSS, including Flexbox, background images, and disabled button styles.
+- Running a frontend project locally with Vite.
+
+## Run locally
+
+```bash
 npm install
 npm start
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Open the local URL printed in the terminal. The game needs an internet connection to fetch the deck and card images.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could go further with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+Click **New Deck** before clicking **Draw**. Each draw uses two cards, one for the computer and one for you.
